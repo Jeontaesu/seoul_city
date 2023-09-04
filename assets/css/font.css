@@ -1,0 +1,27 @@
+/* 
+    @https://caniuse.com/
+
+    ttf 트루타입폰트  (엄청옛날브라우저 지원)
+    otf 트루타입폰트  (엄청옛날브라우저 지원)
+
+    eot 익스플로러 지원(x)
+
+    woff 모던브라우저 지원 (이게 짱)
+    woff2 woff에서 최대 50%압축된 파일 (이게 짱)
+*/
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-weight:400;
+    src:url(../font/NanumGothic-Regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-weight:700;
+    src:url(../font/NanumGothic-Bold.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-weight:800;
+    src:url(../font/NanumGothic-ExtraBold.woff2) format('woff2');
+}

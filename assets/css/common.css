@@ -1,0 +1,46 @@
+/* 공통클래스 */
+.blind {
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin:-1px;
+}
+
+.common-inner {
+    width:1152px;
+    min-width:1152px;
+    margin:0 auto;
+}
+
+.headline {
+    font-size:24px; 
+    color:#222;
+    font-weight:700;
+}
+
+/* sp_bg */
+.header .header-top .logo , .header .header-btm .search-area .search-btn , .btn-nav, .foot-inquiry , .link-more
+{background:url(../images/sp_bg.png)no-repeat;}
+
+/* sp_bg2 */
+.sc-service .service-banner .ic-service {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin:0 auto;
+    background: url(../images/sp_bg2.png)no-repeat;
+    background-size:1200px;
+}
+
+/* sp_bg3 */
+.sp_bg3 , .sc-media .group-sns .sns-area .insta , .sc-media .group-sns .sns-area .facebook , .sc-media .group-sns .sns-area .twitter , .sc-media .group-sns .sns-area .blog , .sc-media .group-sns .sns-area .youtube , .sc-media .group-sns .sns-area .kakaostory {
+    background:url(../images/sp_bg3.png)no-repeat;
+    background-size:280px;
+}
+
+/* sp_bg6 */
+.btn-nav.news:before , .btn-nav.citizen:before {
+    background:#fff url(../images/sp_bg6.png)no-repeat;
+}
